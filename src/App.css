@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.searchResults table {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	width: 100%
+}
+
+.searchResults thead th, .searchResults tbody td {
+	text-align: left;
+	border: 1px solid #000;
+}
+
+.searchResults td.titleCell, .searchResults td.userLoginCell, .searchResults td.assigneeLoginCell {
+	vertical-align: top;
+}
+
+.searchResults td.bodyCell {
+	white-space: pre-line;
+}
+
+.searchResults table tbody td.noResultsCell {
+	text-align: center;
+}
+
+.searchForm {
+	width: 50%;
+	margin-bottom: 5em;
+}
+
+.searchResultsNav {
+	margin-bottom: 2em;
+}
+
+.formRow label {
+	width: 15em;
+	text-align: right;
+	float: left;
+}
+
+.formRow input[type=text], .formRow select {
+	width: 25em;
+	float: left;
+	margin-left: 1em;
+}
+
+.formRow, .buttonRow {
+	clear: both;
+}
+
+.buttonRow {
+	text-align: left;
+	padding-left: 16em;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
